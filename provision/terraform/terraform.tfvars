@@ -1,4 +1,4 @@
-project_id = "mlops-vertex-ai"
+project_id = "mlops-vertex-ai-331110"
 subnet_region = "us-central1"
 zone = "us-central1-a"
 name_prefix = "mlops-vertex-ai"
