@@ -18,7 +18,7 @@ module "project-services" {
 
   project_id  = data.google_project.project.project_id
 
-  disable_services_on_destroy = false
+  disable_services_on_destroy = true
   activate_apis = [
     "compute.googleapis.com",
     "iam.googleapis.com",

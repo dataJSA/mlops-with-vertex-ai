@@ -1,8 +1,9 @@
-project_id = "vertex-mlops"
+project_id = "mlops-vertex-ai"
 subnet_region = "us-central1"
 zone = "us-central1-a"
-name_prefix = "vertex-mlops"
+name_prefix = "mlops-vertex-ai"
 machine_type = "n1-standard-8"
+force_destroy = true
 #gpu_type = "NVIDIA_TESLA_T4"
 #gpu_count = 1
 #install_gpu_driver = true
